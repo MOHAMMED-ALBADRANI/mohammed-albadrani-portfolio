@@ -33,7 +33,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="mt-6 text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-tight text-[hsl(var(--primary-text))]"
+              className="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-bold leading-tight text-[hsl(var(--primary-text))]"
             >
               {personal.heroTagline}
             </motion.h1>
@@ -82,19 +82,11 @@ export default function Hero() {
                 href="https://drive.google.com/drive/u/1/folders/1LCbwPEAP9DpCkbV3fokhQ4knGpLZ1_hB"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm bg-[hsl(var(--accent))] text-white hover:bg-[hsl(var(--accent-hover))] transition-all hover:shadow-lg hover:shadow-[hsl(var(--accent)/0.2)]"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm bg-[hsl(var(--accent))] text-white hover:bg-[hsl(var(--accent-hover))] transition-all hover:shadow-lg hover:shadow-[hsl(var(--accent)/0.2)] w-full sm:w-auto"
               >
                 <Download size={16} />
                 View CV
-              </a>
-              <a
-                href="https://www.linkedin.com/in/mohammed-albadrani-38a906a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit Mohammed Albadrani's LinkedIn profile"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm border border-[hsl(var(--border))] bg-[hsl(var(--surface))] text-[hsl(var(--primary-text))] hover:border-[hsl(var(--accent)/0.4)] hover:bg-[hsl(var(--surface-elevated))] transition-all"
-              >
-                LinkedIn
+
               </a>
               <a
                 href="#contact"
@@ -104,7 +96,7 @@ export default function Hero() {
                     .getElementById("contact")
                     ?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm border border-[hsl(var(--border))] bg-[hsl(var(--surface))] text-[hsl(var(--primary-text))] hover:border-[hsl(var(--accent)/0.4)] hover:bg-[hsl(var(--surface-elevated))] transition-all"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm border border-[hsl(var(--border))] bg-[hsl(var(--surface))] text-[hsl(var(--primary-text))] hover:border-[hsl(var(--accent)/0.4)] hover:bg-[hsl(var(--surface-elevated))] transition-all w-full sm:w-auto"
               >
                 <Mail size={16} />
                 Get in Touch

@@ -45,6 +45,15 @@ export default function Contact() {
                 <Phone size={16} />
                 Call
               </a>
+              <a
+                href="https://www.linkedin.com/in/mohammed-albadrani-38a906a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit Mohammed Albadrani's LinkedIn profile"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm border border-[hsl(var(--border))] bg-[hsl(var(--surface))] text-[hsl(var(--primary-text))] hover:border-[hsl(var(--accent)/0.4)] hover:bg-[hsl(var(--surface-elevated))] transition-all w-full sm:w-auto justify-center"
+              >
+                LinkedIn
+              </a>
             </div>
 
             <div className="mt-8 pt-6 border-t border-[hsl(var(--border))]">

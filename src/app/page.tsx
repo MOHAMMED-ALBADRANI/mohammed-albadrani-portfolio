@@ -10,7 +10,7 @@ import FocusAreas from "@/components/FocusAreas";
 import Awards from "@/components/Awards";
 import Certifications from "@/components/Certifications";
 import Education from "@/components/Education";
-import Languages from "@/components/Languages";
+
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -36,7 +36,7 @@ export default function Home() {
         <Awards />
         <Certifications />
         <Education />
-        <Languages />
+
         <Contact />
       </main>
 

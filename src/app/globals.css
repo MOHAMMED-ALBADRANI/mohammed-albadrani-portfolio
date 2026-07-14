@@ -75,9 +75,9 @@ body {
 
 /* Smooth theme transitions on all themed elements */
 *, *::before, *::after {
-  transition-property: background-color, border-color, color, box-shadow;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
+  transition-property: background-color, border-color, color, fill, stroke, box-shadow;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-out;
 }
 
 /* Exclude fast animations from theme transition */

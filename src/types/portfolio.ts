@@ -58,10 +58,6 @@ export interface FocusArea {
   highlights: string[];
 }
 
-export interface Language {
-  name: string;
-  level: string;
-}
 
 export interface StatCard {
   label: string;
@@ -77,6 +73,6 @@ export interface PortfolioData {
   awards: Award[];
   expertise: ExpertiseCategory[];
   focusAreas: FocusArea[];
-  languages: Language[];
+
   stats: StatCard[];
 }

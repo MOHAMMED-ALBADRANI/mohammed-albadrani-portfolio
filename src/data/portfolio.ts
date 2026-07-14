@@ -278,8 +278,5 @@ export const portfolioData: PortfolioData = {
     },
   ],
 
-  languages: [
-    { name: "Arabic", level: "Native / Superior" },
-    { name: "English", level: "Advanced" },
-  ],
+
 };
