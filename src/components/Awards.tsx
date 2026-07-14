@@ -9,7 +9,7 @@ export default function Awards() {
   const { awards } = portfolioData;
 
   return (
-    <section id="awards" className="relative z-10 py-20 md:py-28">
+    <section id="recognition" className="relative z-10 py-20 md:py-28">
       <div className="section-container">
         <SectionHeading
           title="Awards & Recognition"

@@ -73,6 +73,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  scroll-margin-top: 96px;
+}
+
 /* Smooth theme transitions on all themed elements */
 *, *::before, *::after {
   transition-property: background-color, border-color, color, fill, stroke, box-shadow;
